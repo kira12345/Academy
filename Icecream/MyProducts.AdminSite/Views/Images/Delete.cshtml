@@ -1,0 +1,56 @@
+﻿@model MyProducts.AdminSite.Models.Image
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Image</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductsName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

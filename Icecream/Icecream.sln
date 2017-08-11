@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icecream.Web", "Icecream.Web\Icecream.Web.csproj", "{BAB83578-2908-4927-A542-F07FF8B9EBC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProducts.AdminSite", "MyProducts.AdminSite\MyProducts.AdminSite.csproj", "{39C33C82-6578-4BE0-9A6B-8A45AF65E7B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BAB83578-2908-4927-A542-F07FF8B9EBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAB83578-2908-4927-A542-F07FF8B9EBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAB83578-2908-4927-A542-F07FF8B9EBC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C33C82-6578-4BE0-9A6B-8A45AF65E7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C33C82-6578-4BE0-9A6B-8A45AF65E7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C33C82-6578-4BE0-9A6B-8A45AF65E7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C33C82-6578-4BE0-9A6B-8A45AF65E7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

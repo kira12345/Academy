@@ -1,0 +1,79 @@
+﻿h1{
+color:black;
+font-size:30px;
+line-height:0.25;
+letter-spacing:1px;
+font-family: 'Abel', sans-serif;
+}
+h2{
+color:black;
+font-size:20px;
+font-family: 'Abel', sans-serif;
+}
+header{
+border-width:2px;
+}
+.mybody{
+padding:10px 15px;
+border-width:2px;
+border-style:solid;
+border-color:silver;
+font-family: 'Abel', sans-serif;
+}
+.nave{
+background-color:blue;
+color:red;
+}
+.breadcrumb{
+padding:10px 15px;
+margin-bottom:30px;
+list-style:none;
+background-color:#f5f5f5;
+border-radius:4px;
+float:none;
+}
+.breadcrumb2{
+padding:10px 15px;
+margin-bottom:30px;
+border-style:solid;
+border-color:#f5f5f5;
+list-style:none;
+background-color:white;
+border-radius:4px;
+float:right;
+.texto{
+font-style:bold;
+font-size:20px;
+font-color:blue;
+}
+.Catalog MainImage {
+    background-color: #dae3f3;
+    border: solid 1px black;
+    position:relative;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    float:left;
+}
+.Catalog {
+    background-color: #dae3f3;
+    border: solid 1px black;
+    position:relative;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    float:left;
+}
+ 
+.Catalog .ProductItem {
+        width: 33%;
+        height: 75px;
+        margin: auto;
+        border: 1px solid green;
+ }
+
+   .Catalog img {
+    width: 10px; 
+    height: 10px;
+    border: 1px solid green;
+}

@@ -1,0 +1,61 @@
+﻿@model MyProducts.AdminSite.Models.Image
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Image</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagesActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagesActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.ProductsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.ProductsName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageDateUpdate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImageDateUpdate)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ImagesId, imageupdate=Model.ImageDate }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
